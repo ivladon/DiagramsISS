@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.registration.ControllerSignUp</OriginalElement>
+  <nodes>
+    <node x="1357.1602054000748" y="1124.0665815530708">manager.StageManager</node>
+    <node x="1839.0743250389874" y="188.31064432794562">org.springframework.stereotype.Component</node>
+    <node x="233.32712920151414" y="1403.2148532162355">java.rmi.Remote</node>
+    <node x="492.1062660827023" y="488.5865454242993">service.SignUpService</node>
+    <node x="1046.1496404144712" y="1795.0298677593794">controller.main.ControllerInterface</node>
+    <node x="682.9239443105515" y="1802.9792275131722">listener.Listener</node>
+    <node x="1036.281075660306" y="326.63563971957456">controller.registration.ControllerSignUp</node>
+    <node x="309.47482389360744" y="1639.8312543022475">service.SubscriberService</node>
+    <node x="1628.3848283286025" y="0.0">org.springframework.context.annotation.Lazy</node>
+    <node x="0.0" y="805.4149959274407">service.CollectionService</node>
+    <node x="1286.9061793335397" y="1695.02586750492">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controller.registration.ControllerSignUp" target="controller.main.ControllerInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="listener.Listener" target="service.SubscriberService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.registration.ControllerSignUp" target="listener.Listener">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="service.CollectionService" target="java.rmi.Remote">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="service.SignUpService" target="java.rmi.Remote">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="listener.Listener" target="java.rmi.Remote">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.registration.ControllerSignUp" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.registration.ControllerSignUp" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.registration.ControllerSignUp" target="service.SignUpService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="listener.Listener" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.registration.ControllerSignUp" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="service.SubscriberService" target="java.rmi.Remote">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.registration.ControllerSignUp" target="service.SubscriberService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.registration.ControllerSignUp" target="service.CollectionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="1223.9999999999998" y="846.9999999999998" />
+  <SelectedNodes>
+    <node>service.SubscriberService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

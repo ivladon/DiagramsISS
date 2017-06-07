@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.add.ControllerAddSessionEditionView</OriginalElement>
+  <nodes>
+    <node x="475.0" y="0.0">manager.StageManager</node>
+    <node x="524.0" y="1257.0">org.springframework.stereotype.Component</node>
+    <node x="1300.0" y="154.0">utils.ConferenceContext</node>
+    <node x="0.0" y="648.0">transfarable.Session</node>
+    <node x="582.0" y="692.0">controller.add.ControllerAddSessionEditionView</node>
+    <node x="468.0" y="588.0">controller.main.ControllerInterface</node>
+    <node x="1167.0" y="1202.0">org.springframework.context.annotation.Lazy</node>
+    <node x="845.0" y="1363.0">itemcontroller.ControllerItemInterface</node>
+    <node x="335.0" y="511.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.Session" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSessionEditionView" target="utils.ConferenceContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSessionEditionView" target="transfarable.Session">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSessionEditionView" target="controller.main.ControllerInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSessionEditionView" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSessionEditionView" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSessionEditionView" target="itemcontroller.ControllerItemInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSessionEditionView" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6999999999999997" x="875.1428571428576" y="800.1428571428573" />
+  <SelectedNodes>
+    <node>utils.ConferenceContext</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

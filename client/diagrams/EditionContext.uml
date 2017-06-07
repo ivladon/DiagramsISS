@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>utils.EditionContext</OriginalElement>
+  <nodes>
+    <node x="1419.5" y="1096.0">utils.EditionContext</node>
+    <node x="882.0" y="2208.5">transfarable.IdableTransfer</node>
+    <node x="674.0" y="606.5">service.EditionService</node>
+    <node x="1586.5" y="2018.5">transfarable.Session</node>
+    <node x="-3.5" y="-36.0">transfarable.Edition</node>
+    <node x="771.0" y="341.0">service.ConferenceService</node>
+    <node x="696.5" y="1231.0">transfarable.User</node>
+    <node x="1611.0" y="34.5">service.SessionService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="utils.EditionContext" target="transfarable.User">
+      <point x="-380.5" y="-0.0" />
+      <point x="263.5" y="-0.0" />
+    </edge>
+    <edge source="utils.EditionContext" target="service.ConferenceService">
+      <point x="-80.0" y="-424.0" />
+      <point x="1720.0" y="440.0" />
+      <point x="269.0" y="-0.0" />
+    </edge>
+    <edge source="utils.EditionContext" target="service.SessionService">
+      <point x="0.0" y="-424.0" />
+      <point x="0.0" y="85.5" />
+    </edge>
+    <edge source="utils.EditionContext" target="transfarable.IdableTransfer">
+      <point x="-380.5" y="40.0" />
+      <point x="1360.0" y="1560.0" />
+      <point x="1360.0" y="2220.0" />
+      <point x="78.0" y="-20.0" />
+    </edge>
+    <edge source="transfarable.Edition" target="transfarable.IdableTransfer">
+      <point x="0.0" y="316.0" />
+      <point x="280.0" y="2240.0" />
+      <point x="-78.0" y="-0.0" />
+    </edge>
+    <edge source="transfarable.Session" target="transfarable.IdableTransfer">
+      <point x="-213.5" y="-0.0" />
+      <point x="78.0" y="-0.0" />
+    </edge>
+    <edge source="utils.EditionContext" target="transfarable.Session">
+      <point x="0.0" y="424.0" />
+      <point x="0.0" y="-221.5" />
+    </edge>
+    <edge source="utils.EditionContext" target="service.EditionService">
+      <point x="-120.0" y="-424.0" />
+      <point x="1680.0" y="800.0" />
+      <point x="286.0" y="-0.0" />
+    </edge>
+    <edge source="transfarable.User" target="transfarable.IdableTransfer">
+      <point x="0.0" y="289.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="utils.EditionContext" target="transfarable.Edition">
+      <point x="-40.0" y="-424.0" />
+      <point x="1760.0" y="280.0" />
+      <point x="283.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000004" x="1194.0" y="1103.3333333333335" />
+  <SelectedNodes>
+    <node>service.SessionService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

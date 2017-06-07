@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.update.ControllerUpdateMembersEditionView</OriginalElement>
+  <nodes>
+    <node x="824.0" y="670.0">controller.update.ControllerUpdateMembersEditionView</node>
+    <node x="1019.6666666666665" y="1802.333333333333">manager.StageManager</node>
+    <node x="557.0" y="762.0">org.springframework.stereotype.Component</node>
+    <node x="1741.0" y="1540.0">service.EditionService</node>
+    <node x="155.66666666666663" y="1733.6666666666665">transfarable.Edition</node>
+    <node x="888.6666666666666" y="1630.0">controller.main.ControllerInterface</node>
+    <node x="587.0" y="0.0">service.UserService</node>
+    <node x="0.0" y="965.0">transfarable.User</node>
+    <node x="1422.0" y="501.0">org.springframework.context.annotation.Lazy</node>
+    <node x="568.0" y="1462.0">itemcontroller.ControllerItemInterface</node>
+    <node x="1824.0" y="724.0">service.CollectionService</node>
+    <node x="521.3333333333334" y="1613.3333333333335">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controller.update.ControllerUpdateMembersEditionView" target="itemcontroller.ControllerItemInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateMembersEditionView" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateMembersEditionView" target="controller.main.ControllerInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateMembersEditionView" target="transfarable.User">
+      <point x="0.7282543792601359" y="4.946680256403118" />
+      <point x="0.7282543792601928" y="4.946680256403113" />
+    </edge>
+    <edge source="transfarable.User" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateMembersEditionView" target="service.UserService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.Edition" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateMembersEditionView" target="transfarable.Edition">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateMembersEditionView" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateMembersEditionView" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateMembersEditionView" target="service.EditionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateMembersEditionView" target="service.CollectionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="1385.1666666666665" y="980.3333333333333" />
+  <SelectedNodes>
+    <node>java.io.Serializable</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

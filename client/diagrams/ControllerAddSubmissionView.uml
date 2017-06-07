@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.add.ControllerAddSubmissionView</OriginalElement>
+  <nodes>
+    <node x="1788.0" y="2595.0">service.AuthenticationService</node>
+    <node x="997.0" y="1132.0">java.lang.SuppressWarnings</node>
+    <node x="464.0" y="1319.0">service.TagService</node>
+    <node x="2257.857142857143" y="1303.4285714285713">controller.main.ControllerInterface</node>
+    <node x="416.6666666666666" y="1770.3333333333335">service.CollectionService</node>
+    <node x="2230.0" y="1519.0">java.io.Serializable</node>
+    <node x="2834.2857142857147" y="1104.2857142857142">manager.StageManager</node>
+    <node x="1474.5714285714284" y="913.0">org.springframework.stereotype.Component</node>
+    <node x="2568.0" y="2673.0">service.EditionService</node>
+    <node x="2333.4285714285716" y="438.1428571428571">transfarable.Edition</node>
+    <node x="2542.142857142857" y="1517.4285714285713">transfarable.Tag</node>
+    <node x="1572.5714285714291" y="421.42857142857144">service.SubmissionService</node>
+    <node x="895.0" y="2311.333333333333">service.UserService</node>
+    <node x="2889.428571428571" y="1755.7142857142858">transfarable.User</node>
+    <node x="2365.5714285714284" y="2129.1428571428573">org.springframework.context.annotation.Lazy</node>
+    <node x="2379.0" y="1879.0">transfarable.Topic</node>
+    <node x="2152.0" y="2333.0">itemcontroller.ControllerItemInterface</node>
+    <node x="677.0" y="745.0">service.TopicService</node>
+    <node x="1306.0" y="1117.0">controller.add.ControllerAddSubmissionView</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controller.add.ControllerAddSubmissionView" target="java.lang.SuppressWarnings">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="service.TagService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="service.TopicService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="service.AuthenticationService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="transfarable.Topic">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.Topic" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="transfarable.Edition">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="itemcontroller.ControllerItemInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.User" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.Edition" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="service.SubmissionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="service.CollectionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="transfarable.User">
+      <point x="0.0" y="-5.190714791100618" />
+      <point x="0.0" y="-5.190714791100618" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="service.UserService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="transfarable.Tag">
+      <point x="0.0" y="27.48945870258723" />
+      <point x="-10.73552825071453" y="0.0" />
+    </edge>
+    <edge source="transfarable.Tag" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="controller.main.ControllerInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddSubmissionView" target="service.EditionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3000000000000001" x="2402.809523809524" y="1639.6190476190482" />
+  <SelectedNodes>
+    <node>service.CollectionService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

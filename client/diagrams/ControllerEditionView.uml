@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.item.ControllerEditionView</OriginalElement>
+  <nodes>
+    <node x="608.0" y="1450.0">manager.StageManager</node>
+    <node x="1446.5" y="1517.0">pagination.PaginationBuilder</node>
+    <node x="999.0" y="367.0">org.springframework.stereotype.Component</node>
+    <node x="1949.0" y="978.0">service.EditionService</node>
+    <node x="0.0" y="975.0">transfarable.Edition</node>
+    <node x="937.0" y="508.0">controller.item.ControllerEditionView</node>
+    <node x="709.0" y="996.0">controller.main.ControllerInterface</node>
+    <node x="294.0" y="350.0">transfarable.User</node>
+    <node x="1856.0" y="795.5">org.springframework.context.annotation.Lazy</node>
+    <node x="1127.0" y="1588.0">itemcontroller.ControllerItemInterface</node>
+    <node x="1829.5" y="325.0">service.CollectionService</node>
+    <node x="649.0" y="1149.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controller.item.ControllerEditionView" target="controller.main.ControllerInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pagination.PaginationBuilder" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.User" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.Edition" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerEditionView" target="service.CollectionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerEditionView" target="service.EditionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerEditionView" target="itemcontroller.ControllerItemInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerEditionView" target="transfarable.Edition">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerEditionView" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerEditionView" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerEditionView" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerEditionView" target="pagination.PaginationBuilder">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerEditionView" target="transfarable.User">
+      <point x="0.0" y="-5.387734768230985" />
+      <point x="0.0" y="-5.387734768230956" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4" x="1724.25" y="892.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

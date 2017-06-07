@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>utils.ConferenceContext</OriginalElement>
+  <nodes>
+    <node x="832.4166666666665" y="741.0">utils.EditionContext</node>
+    <node x="1194.609375" y="0.0">transfarable.IdableTransfer</node>
+    <node x="1709.375" y="208.5">service.EditionService</node>
+    <node x="0.0" y="1038.0">transfarable.Conference</node>
+    <node x="700.2630208333333" y="1669.0">utils.ConferenceContext</node>
+    <node x="601.0" y="303.0">service.ConferenceService</node>
+    <node x="1162.375" y="113.0">transfarable.User</node>
+    <node x="203.0" y="316.5">service.SessionService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="utils.EditionContext" target="service.ConferenceService">
+      <point x="-190.2499999999999" y="-424.0" />
+      <point x="1022.6666666666667" y="721.0" />
+      <point x="1004.5" y="721.0" />
+      <point x="134.5" y="99.0" />
+    </edge>
+    <edge source="utils.ConferenceContext" target="service.EditionService">
+      <point x="278.25" y="-410.5" />
+      <point x="1376.0130208333333" y="1639.0" />
+      <point x="2138.375" y="1639.0" />
+      <point x="143.0" y="193.5" />
+    </edge>
+    <edge source="utils.ConferenceContext" target="transfarable.Conference">
+      <point x="-357.75" y="-410.5" />
+      <point x="740.0130208333333" y="1649.0" />
+      <point x="71.75" y="1649.0" />
+      <point x="-71.75" y="127.0" />
+    </edge>
+    <edge source="utils.ConferenceContext" target="transfarable.IdableTransfer">
+      <point x="357.75" y="-410.5" />
+      <point x="1455.5130208333333" y="1649.0" />
+      <point x="2291.875" y="1649.0" />
+      <point x="2291.875" y="83.0" />
+      <point x="1331.109375" y="83.0" />
+      <point x="58.5" y="31.5" />
+    </edge>
+    <edge source="utils.ConferenceContext" target="transfarable.User">
+      <point x="198.75" y="-410.5" />
+      <point x="1296.5130208333333" y="1629.0" />
+      <point x="1672.9140624999998" y="1629.0" />
+      <point x="1672.9140624999998" y="711.0" />
+      <point x="1601.5416666666665" y="711.0" />
+      <point x="175.66666666666663" y="289.0" />
+    </edge>
+    <edge source="utils.EditionContext" target="transfarable.IdableTransfer">
+      <point x="-63.41666666666663" y="-424.0" />
+      <point x="1149.5" y="93.0" />
+      <point x="1253.109375" y="93.0" />
+      <point x="-19.5" y="31.5" />
+    </edge>
+    <edge source="utils.ConferenceContext" target="service.SessionService">
+      <point x="-198.75" y="-410.5" />
+      <point x="899.0130208333333" y="1629.0" />
+      <point x="297.5" y="1629.0" />
+      <point x="-94.5" y="85.5" />
+    </edge>
+    <edge source="transfarable.User" target="transfarable.IdableTransfer">
+      <point x="0.0" y="-289.0" />
+      <point x="1425.875" y="93.0" />
+      <point x="1292.109375" y="93.0" />
+      <point x="19.5" y="31.5" />
+    </edge>
+    <edge source="utils.EditionContext" target="service.EditionService">
+      <point x="317.08333333333326" y="-424.0" />
+      <point x="1529.9999999999998" y="721.0" />
+      <point x="1852.375" y="721.0" />
+      <point x="-143.0" y="193.5" />
+    </edge>
+    <edge source="transfarable.Conference" target="transfarable.IdableTransfer">
+      <point x="0.0" y="-127.0" />
+      <point x="143.5" y="83.0" />
+      <point x="1214.109375" y="83.0" />
+      <point x="-58.5" y="31.5" />
+    </edge>
+    <edge source="utils.EditionContext" target="transfarable.User">
+      <point x="190.25" y="-424.0" />
+      <point x="1403.1666666666665" y="721.0" />
+      <point x="1425.875" y="721.0" />
+      <point x="0.0" y="289.0" />
+    </edge>
+    <edge source="utils.EditionContext" target="service.SessionService">
+      <point x="-317.08333333333314" y="-424.0" />
+      <point x="895.8333333333335" y="721.0" />
+      <point x="486.5" y="721.0" />
+      <point x="94.5" y="85.5" />
+    </edge>
+    <edge source="utils.ConferenceContext" target="service.ConferenceService">
+      <point x="-119.25" y="-410.5" />
+      <point x="978.5130208333333" y="1619.0" />
+      <point x="735.5" y="1619.0" />
+      <point x="-134.5" y="99.0" />
+    </edge>
+    <edge source="utils.ConferenceContext" target="utils.EditionContext">
+      <point x="-39.75" y="-410.5" />
+      <point x="1058.0130208333333" y="1609.0" />
+      <point x="959.25" y="1609.0" />
+      <point x="-253.66666666666663" y="424.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5" x="1277.0" y="728.0" />
+  <SelectedNodes>
+    <node>service.SessionService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

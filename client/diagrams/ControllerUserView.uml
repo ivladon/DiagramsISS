@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.item.ControllerUserView</OriginalElement>
+  <nodes>
+    <node x="2103.0" y="1533.0">service.ConferenceService</node>
+    <node x="1955.0" y="1128.0">controller.main.ControllerInterface</node>
+    <node x="1619.0" y="2006.0">service.CollectionService</node>
+    <node x="1663.0" y="914.0">java.io.Serializable</node>
+    <node x="2188.0" y="990.9999999999999">manager.StageManager</node>
+    <node x="992.0" y="1539.0">org.springframework.stereotype.Component</node>
+    <node x="1437.0" y="569.0">transfarable.Conference</node>
+    <node x="1290.0" y="1064.0">controller.item.ControllerUserView</node>
+    <node x="667.0" y="1862.0">service.UserService</node>
+    <node x="969.0" y="504.0">transfarable.Submission</node>
+    <node x="1925.0" y="305.99999999999994">transfarable.User</node>
+    <node x="1875.0" y="1740.0">org.springframework.context.annotation.Lazy</node>
+    <node x="1415.0" y="1895.0">itemcontroller.ControllerItemInterface</node>
+    <node x="0.0" y="758.0">javafx.scene.control.Pagination</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controller.item.ControllerUserView" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerUserView" target="service.CollectionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerUserView" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerUserView" target="javafx.scene.control.Pagination">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerUserView" target="transfarable.Conference">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerUserView" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.User" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.Conference" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerUserView" target="controller.main.ControllerInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerUserView" target="service.ConferenceService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerUserView" target="itemcontroller.ControllerItemInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.Submission" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerUserView" target="transfarable.User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerUserView" target="service.UserService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerUserView" target="transfarable.Submission">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="1392.9999999999998" y="1242.9999999999998" />
+  <SelectedNodes>
+    <node>transfarable.User</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>context.Context</OriginalElement>
+  <nodes>
+    <node x="54.90104166666666" y="0.0">java.lang.annotation.Annotation</node>
+    <node x="0.0" y="420.0">java.lang.annotation.Documented</node>
+    <node x="32.44999999999999" y="194.0">java.lang.annotation.Target</node>
+    <node x="70.36666666666667" y="307.0">java.lang.annotation.Retention</node>
+    <node x="139.25833333333333" y="506.0">context.Context</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.lang.annotation.Documented" target="java.lang.annotation.Annotation">
+      <point x="-58.80000000000001" y="-18.0" />
+      <point x="14.699999999999989" y="395.0" />
+      <point x="18.473958333333314" y="395.0" />
+      <point x="18.473958333333314" y="169.0" />
+      <point x="92.27604166666666" y="169.0" />
+      <point x="-112.125" y="72.0" />
+    </edge>
+    <edge source="java.lang.annotation.Target" target="java.lang.annotation.Retention">
+      <point x="45.599999999999966" y="31.5" />
+      <point x="192.04999999999995" y="287.0" />
+      <point x="187.86666666666667" y="287.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="java.lang.annotation.Documented" target="java.lang.annotation.Retention">
+      <point x="29.39999999999999" y="-18.0" />
+      <point x="102.89999999999999" y="395.0" />
+      <point x="109.53333333333335" y="395.0" />
+      <point x="-78.33333333333333" y="31.5" />
+    </edge>
+    <edge source="java.lang.annotation.Target" target="java.lang.annotation.Annotation">
+      <point x="0.0" y="-31.5" />
+      <point x="146.45" y="169.0" />
+      <point x="167.02604166666666" y="169.0" />
+      <point x="-37.375" y="72.0" />
+    </edge>
+    <edge source="java.lang.annotation.Retention" target="java.lang.annotation.Annotation">
+      <point x="78.33333333333331" y="-31.5" />
+      <point x="266.2" y="287.0" />
+      <point x="270.95" y="287.0" />
+      <point x="270.95" y="169.0" />
+      <point x="241.77604166666666" y="169.0" />
+      <point x="37.375" y="72.0" />
+    </edge>
+    <edge source="java.lang.annotation.Retention" target="java.lang.annotation.Target">
+      <point x="-78.33333333333331" y="-31.5" />
+      <point x="109.53333333333336" y="287.0" />
+      <point x="146.45" y="287.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="context.Context" target="java.lang.annotation.Annotation">
+      <point x="84.375" y="-31.5" />
+      <point x="335.2739583333333" y="169.0" />
+      <point x="316.52604166666663" y="169.0" />
+      <point x="112.12499999999997" y="72.0" />
+    </edge>
+    <edge source="context.Context" target="java.lang.annotation.Documented">
+      <point x="-84.375" y="-31.5" />
+      <point x="167.38333333333333" y="481.0" />
+      <point x="73.5" y="481.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="java.lang.annotation.Documented" target="java.lang.annotation.Target">
+      <point x="-1.4210854715202004E-14" y="-18.0" />
+      <point x="73.49999999999999" y="395.0" />
+      <point x="49.984375" y="395.0" />
+      <point x="49.984375" y="287.0" />
+      <point x="100.84999999999998" y="287.0" />
+      <point x="-45.60000000000001" y="31.5" />
+    </edge>
+    <edge source="context.Context" target="java.lang.annotation.Target">
+      <point x="28.125000000000007" y="-31.5" />
+      <point x="279.8833333333333" y="481.0" />
+      <point x="315.8666666666667" y="481.0" />
+      <point x="315.8666666666667" y="277.0" />
+      <point x="237.64999999999995" y="277.0" />
+      <point x="91.19999999999996" y="31.5" />
+    </edge>
+    <edge source="context.Context" target="java.lang.annotation.Retention">
+      <point x="-28.125" y="-31.5" />
+      <point x="223.63333333333333" y="481.0" />
+      <point x="257.9572916666666" y="481.0" />
+      <point x="257.9572916666666" y="395.0" />
+      <point x="266.2" y="395.0" />
+      <point x="78.33333333333331" y="31.5" />
+    </edge>
+    <edge source="java.lang.annotation.Target" target="java.lang.annotation.Documented">
+      <point x="-91.19999999999999" y="31.5" />
+      <point x="55.25" y="277.0" />
+      <point x="38.984375" y="277.0" />
+      <point x="38.984375" y="395.0" />
+      <point x="44.099999999999966" y="395.0" />
+      <point x="-29.400000000000034" y="-18.0" />
+    </edge>
+    <edge source="java.lang.annotation.Retention" target="java.lang.annotation.Documented">
+      <point x="0.0" y="31.5" />
+      <point x="187.86666666666667" y="395.0" />
+      <point x="132.3" y="395.0" />
+      <point x="58.80000000000001" y="-18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="118.5" y="350.0" />
+  <SelectedNodes>
+    <node>context.Context</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

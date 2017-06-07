@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cellcontroller.UserListCellController</OriginalElement>
+  <nodes>
+    <node x="1450.0" y="153.5">manager.StageManager</node>
+    <node x="904.0" y="248.5">org.springframework.stereotype.Component</node>
+    <node x="201.64166666666677" y="632.5">itemcontroller.PaginationControllerItemInterface</node>
+    <node x="550.0" y="99.5">java.awt.Label</node>
+    <node x="345.0" y="248.5">controller.main.ControllerInterface</node>
+    <node x="1063.0" y="86.0">transfarable.User</node>
+    <node x="985.375" y="864.0">cellcontroller.UserListCellController</node>
+    <node x="0.0" y="248.5">org.springframework.context.annotation.Lazy</node>
+    <node x="588.863321799308" y="497.0">javafx.scene.layout.BorderPane</node>
+    <node x="110.0" y="248.5">itemcontroller.ControllerItemInterface</node>
+    <node x="929.8916666666667" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="controller.main.ControllerInterface">
+      <point x="35.75" y="-18.0" />
+      <point x="380.39166666666677" y="477.0" />
+      <point x="437.5" y="477.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="java.awt.Label" target="java.io.Serializable">
+      <point x="0.0" y="-167.0" />
+      <point x="717.0" y="66.0" />
+      <point x="981.6416666666667" y="66.0" />
+      <point x="-17.25" y="18.0" />
+    </edge>
+    <edge source="cellcontroller.UserListCellController" target="javafx.scene.layout.BorderPane">
+      <point x="118.33333333333326" y="-72.0" />
+      <point x="1245.7083333333333" y="844.0" />
+      <point x="773.1217993079583" y="848.1377162629758" />
+      <point x="0.0" y="153.5" />
+    </edge>
+    <edge source="cellcontroller.UserListCellController" target="org.springframework.context.annotation.Lazy">
+      <point x="-118.33333333333337" y="-72.0" />
+      <point x="1009.0416666666667" y="844.0" />
+      <point x="22.5" y="844.0" />
+      <point x="-22.5" y="18.0" />
+    </edge>
+    <edge source="transfarable.User" target="java.io.Serializable">
+      <point x="0.0" y="-180.5" />
+      <point x="1246.5" y="66.0" />
+      <point x="1016.1416666666667" y="66.0" />
+      <point x="17.25" y="18.0" />
+    </edge>
+    <edge source="cellcontroller.UserListCellController" target="org.springframework.stereotype.Component">
+      <point x="-23.666666666666742" y="-72.0" />
+      <point x="1103.7083333333333" y="824.0" />
+      <point x="1008.25" y="824.0" />
+      <point x="34.75" y="18.0" />
+    </edge>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="-113.0" />
+      <point x="1599.0" y="56.0" />
+      <point x="1050.6416666666667" y="56.0" />
+      <point x="51.75" y="18.0" />
+    </edge>
+    <edge source="cellcontroller.UserListCellController" target="manager.StageManager">
+      <point x="71.0" y="-72.0" />
+      <point x="1198.375" y="834.0" />
+      <point x="1599.0" y="834.0" />
+      <point x="0.0" y="113.0" />
+    </edge>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="org.springframework.context.annotation.Lazy">
+      <point x="-107.25" y="-18.0" />
+      <point x="237.39166666666677" y="477.0" />
+      <point x="67.5" y="477.0" />
+      <point x="22.5" y="18.0" />
+    </edge>
+    <edge source="cellcontroller.UserListCellController" target="itemcontroller.PaginationControllerItemInterface">
+      <point x="-71.0" y="-72.0" />
+      <point x="1056.375" y="834.0" />
+      <point x="344.64166666666677" y="834.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="cellcontroller.UserListCellController" target="transfarable.User">
+      <point x="23.66666666666663" y="-72.0" />
+      <point x="1151.0416666666667" y="824.0" />
+      <point x="1246.5" y="824.0" />
+      <point x="0.0" y="180.5" />
+    </edge>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="org.springframework.stereotype.Component">
+      <point x="107.25" y="-18.0" />
+      <point x="451.89166666666677" y="477.0" />
+      <point x="938.75" y="477.0" />
+      <point x="-34.75" y="18.0" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="-18.0" />
+      <point x="437.5" y="56.0" />
+      <point x="947.1416666666667" y="56.0" />
+      <point x="-51.75" y="18.0" />
+    </edge>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="itemcontroller.ControllerItemInterface">
+      <point x="-35.75" y="-18.0" />
+      <point x="308.89166666666677" y="467.0" />
+      <point x="217.5" y="467.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7250376317109885" x="1011.5" y="524.1764705882352" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

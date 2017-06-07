@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>service.SubmissionService</OriginalElement>
+  <nodes>
+    <node x="222.5" y="86.0">service.ServiceInterface</node>
+    <node x="249.0" y="0.0">java.rmi.Remote</node>
+    <node x="0.0" y="393.0">service.SubmissionService</node>
+    <node x="167.0" y="172.0">service.Service</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="service.Service" target="service.ServiceInterface">
+      <point x="0.0" y="-85.5" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="service.ServiceInterface" target="java.rmi.Remote">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="service.SubmissionService" target="service.Service">
+      <point x="0.0" y="-220.5" />
+      <point x="0.0" y="85.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="109.5" y="407.0" />
+  <SelectedNodes>
+    <node>service.SubmissionService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>manager.StageManager</OriginalElement>
+  <nodes>
+    <node x="479.66666666666663" y="983.0">manager.StageManager</node>
+    <node x="0.0" y="86.0">view.ViewType</node>
+    <node x="744.0" y="423.0">loader.SpringFXMLLoader</node>
+    <node x="495.9" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="manager.StageManager" target="loader.SpringFXMLLoader">
+      <point x="159.33333333333337" y="-235.0" />
+      <point x="878.0" y="958.0" />
+      <point x="931.5" y="958.0" />
+      <point x="0.0" y="86.5" />
+    </edge>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="-2.8421709430404007E-14" y="-235.0" />
+      <point x="718.6666666666666" y="958.0" />
+      <point x="733.5" y="958.0" />
+      <point x="733.5" y="61.0" />
+      <point x="599.4" y="61.0" />
+      <point x="34.5" y="18.0" />
+    </edge>
+    <edge source="manager.StageManager" target="view.ViewType">
+      <point x="-159.33333333333337" y="-235.0" />
+      <point x="559.3333333333333" y="958.0" />
+      <point x="361.5" y="958.0" />
+      <point x="0.0" y="423.5" />
+    </edge>
+    <edge source="view.ViewType" target="java.io.Serializable">
+      <point x="0.0" y="-423.5" />
+      <point x="361.5" y="61.0" />
+      <point x="530.4" y="61.0" />
+      <point x="-34.5" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="622.8181818181818" y="562.3636363636363" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

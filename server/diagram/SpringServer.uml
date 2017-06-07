@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>main.SpringServer</OriginalElement>
+  <nodes>
+    <node x="251.5" y="137.951171875">main.SpringServer</node>
+    <node x="0.0" y="18.451171875">org.springframework.boot.autoconfigure.SpringBootApplication</node>
+    <node x="233.0" y="18.451171875">java.lang.SuppressWarnings</node>
+    <node x="465.0" y="4.951171875">org.springframework.boot.builder.SpringApplicationBuilder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.boot.builder.SpringApplicationBuilder" target="org.springframework.boot.builder.SpringApplicationBuilder">
+      <point x="0.0" y="31.5" />
+      <point x="623.5" y="97.951171875" />
+      <point x="435.0" y="97.951171875" />
+      <point x="435.0" y="20.701171875" />
+      <point x="-158.5" y="-15.75" />
+    </edge>
+    <edge source="main.SpringServer" target="org.springframework.boot.builder.SpringApplicationBuilder">
+      <point x="48.333333333333314" y="-18.0" />
+      <point x="372.3333333333333" y="117.951171875" />
+      <point x="729.1666666666667" y="117.951171875" />
+      <point x="105.66666666666674" y="31.5" />
+    </edge>
+    <edge source="main.SpringServer" target="java.lang.SuppressWarnings">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="main.SpringServer" target="org.springframework.boot.autoconfigure.SpringBootApplication">
+      <point x="-48.33333333333337" y="-18.0" />
+      <point x="275.66666666666663" y="117.951171875" />
+      <point x="106.5" y="117.951171875" />
+      <point x="0.0" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="462.08333333333326" y="153.16666666666663" />
+  <SelectedNodes>
+    <node>main.SpringServer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>service.CollectionService</OriginalElement>
+  <nodes>
+    <node x="139.75" y="86.0">service.ServiceInterface</node>
+    <node x="213.0" y="0.0">java.rmi.Remote</node>
+    <node x="0.0" y="172.0">service.CollectionService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="service.CollectionService" target="service.ServiceInterface">
+      <point x="-134.75" y="-166.5" />
+      <point x="134.75" y="147.0" />
+      <point x="222.75" y="147.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="service.ServiceInterface" target="java.rmi.Remote">
+      <point x="0.0" y="-18.0" />
+      <point x="222.75" y="61.0" />
+      <point x="241.25" y="61.0" />
+      <point x="-28.25" y="18.0" />
+    </edge>
+    <edge source="service.CollectionService" target="java.rmi.Remote">
+      <point x="134.75" y="-166.5" />
+      <point x="404.25" y="147.0" />
+      <point x="316.25" y="147.0" />
+      <point x="316.25" y="61.0" />
+      <point x="297.75" y="61.0" />
+      <point x="28.25" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="109.5" y="304.0" />
+  <SelectedNodes>
+    <node>service.CollectionService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

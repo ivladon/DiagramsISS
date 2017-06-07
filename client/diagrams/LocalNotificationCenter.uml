@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>notifier.LocalNotificationCenter</OriginalElement>
+  <nodes>
+    <node x="0.0" y="86.0">notifier.LocalNotificationCenter</node>
+    <node x="41.0" y="0.0">java.util.Observable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="notifier.LocalNotificationCenter" target="java.util.Observable">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="109.5" y="181.0" />
+  <SelectedNodes>
+    <node>notifier.LocalNotificationCenter</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.read.ControllerConferencesView</OriginalElement>
+  <nodes>
+    <node x="37.0" y="54.0">manager.StageManager</node>
+    <node x="-18.0" y="1021.0">pagination.PaginationBuilder</node>
+    <node x="1682.0" y="664.0">org.springframework.stereotype.Component</node>
+    <node x="1175.0" y="193.71428571428572">transfarable.Conference</node>
+    <node x="954.0" y="554.0">controller.read.ControllerConferencesView</node>
+    <node x="1450.142857142857" y="1246.2857142857144">service.ConferenceService</node>
+    <node x="888.5714285714287" y="378.14285714285717">controller.main.ControllerInterface</node>
+    <node x="1031.0" y="1303.5714285714284">org.springframework.context.annotation.Lazy</node>
+    <node x="338.0" y="638.4285714285714">service.CollectionService</node>
+    <node x="836.1428571428571" y="212.71428571428572">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controller.read.ControllerConferencesView" target="service.ConferenceService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.Conference" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.read.ControllerConferencesView" target="pagination.PaginationBuilder">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.read.ControllerConferencesView" target="transfarable.Conference">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.read.ControllerConferencesView" target="service.CollectionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.read.ControllerConferencesView" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.read.ControllerConferencesView" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pagination.PaginationBuilder" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.read.ControllerConferencesView" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.read.ControllerConferencesView" target="controller.main.ControllerInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7" x="1370.142857142857" y="609.1428571428572" />
+  <SelectedNodes>
+    <node>java.io.Serializable</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

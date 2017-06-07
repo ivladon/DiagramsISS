@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.read.ControllerMySubmissionsView</OriginalElement>
+  <nodes>
+    <node x="1212.0" y="641.0">manager.StageManager</node>
+    <node x="570.0" y="1023.0">pagination.PaginationBuilder</node>
+    <node x="621.0" y="308.0">org.springframework.stereotype.Component</node>
+    <node x="1130.0" y="537.0">controller.main.ControllerInterface</node>
+    <node x="930.0" y="0.0">transfarable.Submission</node>
+    <node x="580.0" y="457.0">controller.read.ControllerMySubmissionsView</node>
+    <node x="464.0" y="913.0">org.springframework.context.annotation.Lazy</node>
+    <node x="0.0" y="387.0">service.CollectionService</node>
+    <node x="1262.0" y="460.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.read.ControllerMySubmissionsView" target="pagination.PaginationBuilder">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.read.ControllerMySubmissionsView" target="controller.main.ControllerInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pagination.PaginationBuilder" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.read.ControllerMySubmissionsView" target="transfarable.Submission">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.Submission" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.read.ControllerMySubmissionsView" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.read.ControllerMySubmissionsView" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.read.ControllerMySubmissionsView" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.read.ControllerMySubmissionsView" target="service.CollectionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="1105.142857142857" y="605.1428571428571" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

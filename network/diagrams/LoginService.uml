@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>service.LoginService</OriginalElement>
+  <nodes>
+    <node x="39.5" y="86.0">service.ServiceInterface</node>
+    <node x="66.0" y="0.0">java.rmi.Remote</node>
+    <node x="0.0" y="172.0">service.LoginService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="service.ServiceInterface" target="java.rmi.Remote">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="service.LoginService" target="service.ServiceInterface">
+      <point x="0.0" y="-31.5" />
+      <point x="0.0" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="83.0" y="104.0" />
+  <SelectedNodes>
+    <node>service.LoginService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

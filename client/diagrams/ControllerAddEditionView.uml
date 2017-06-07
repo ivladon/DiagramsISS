@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.add.ControllerAddEditionView</OriginalElement>
+  <nodes>
+    <node x="1951.0" y="564.0">controller.add.ControllerAddEditionView</node>
+    <node x="1401.0" y="1485.0">manager.StageManager</node>
+    <node x="2714.5" y="888.5">org.springframework.stereotype.Component</node>
+    <node x="402.5" y="1429.5">utils.ConferenceContext</node>
+    <node x="-11.0" y="888.5">java.lang.SuppressWarnings</node>
+    <node x="1267.5" y="2008.5">controller.main.ControllerInterface</node>
+    <node x="2186.5" y="1328.5">org.springframework.context.annotation.Lazy</node>
+    <node x="132.5" y="1368.5">itemcontroller.ControllerItemInterface</node>
+    <node x="1972.5" y="-35.0">controller.ControllerEdition</node>
+    <node x="1571.0" y="2022.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="235.0" />
+      <point x="0.0" y="-18.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddEditionView" target="org.springframework.stereotype.Component">
+      <point x="329.0" y="-0.0" />
+      <point x="-85.5" y="-0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddEditionView" target="manager.StageManager">
+      <point x="-329.0" y="160.0" />
+      <point x="1640.0" y="1080.0" />
+      <point x="0.0" y="-235.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddEditionView" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="356.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="controller.add.ControllerAddEditionView" target="controller.main.ControllerInterface">
+      <point x="-329.0" y="120.0" />
+      <point x="1360.0" y="1040.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="controller.add.ControllerAddEditionView" target="java.lang.SuppressWarnings">
+      <point x="-329.0" y="-0.0" />
+      <point x="91.0" y="-0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddEditionView" target="utils.ConferenceContext">
+      <point x="-329.0" y="80.0" />
+      <point x="800.0" y="1000.0" />
+      <point x="0.0" y="-410.5" />
+    </edge>
+    <edge source="controller.add.ControllerAddEditionView" target="itemcontroller.ControllerItemInterface">
+      <point x="-329.0" y="40.0" />
+      <point x="240.0" y="960.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="92.5" y="-0.0" />
+      <point x="-69.0" y="-0.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddEditionView" target="controller.ControllerEdition">
+      <point x="0.0" y="-356.0" />
+      <point x="0.0" y="275.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3000000000000007" x="1620.3333333333276" y="1110.6666666666633" />
+  <SelectedNodes>
+    <node>utils.ConferenceContext</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

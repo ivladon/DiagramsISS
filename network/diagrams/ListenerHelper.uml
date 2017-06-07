@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>listener.ListenerHelper</OriginalElement>
+  <nodes>
+    <node x="287.0" y="86.0">domain.UserEntity</node>
+    <node x="2004.76875" y="0.0">java.rmi.Remote</node>
+    <node x="1371.5" y="1416.0">java.rmi.server.RemoteServer</node>
+    <node x="1278.675" y="1703.0">java.rmi.server.UnicastRemoteObject</node>
+    <node x="1355.0" y="558.5">java.rmi.server.RemoteObject</node>
+    <node x="1909.2624999999998" y="1879.5">listener.Listener</node>
+    <node x="2152.0" y="1498.0">service.SubscriberService</node>
+    <node x="1754.0" y="667.5">service.SubscriptionService</node>
+    <node x="0.0" y="666.5">notification.NotificationUpdate</node>
+    <node x="1635.2624999999998" y="2196.0">listener.ListenerHelper</node>
+    <node x="1027.76875" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="service.SubscriptionService" target="java.rmi.Remote">
+      <point x="0.0" y="-58.5" />
+      <point x="1942.5" y="66.0" />
+      <point x="2047.14375" y="66.0" />
+      <point x="-14.125" y="18.0" />
+    </edge>
+    <edge source="listener.Listener" target="service.SubscriberService">
+      <point x="99.0" y="-45.0" />
+      <point x="2140.2625" y="1683.0" />
+      <point x="2227.25" y="1683.0" />
+      <point x="-75.25" y="31.5" />
+    </edge>
+    <edge source="listener.ListenerHelper" target="service.SubscriberService">
+      <point x="142.875" y="-140.5" />
+      <point x="1968.6374999999998" y="2176.0" />
+      <point x="2377.75" y="2176.0" />
+      <point x="75.25" y="31.5" />
+    </edge>
+    <edge source="listener.ListenerHelper" target="domain.UserEntity">
+      <point x="-142.875" y="-140.5" />
+      <point x="1682.8874999999998" y="2176.0" />
+      <point x="810.4999999999999" y="2176.0" />
+      <point x="0.0" y="640.0" />
+    </edge>
+    <edge source="java.rmi.server.RemoteObject" target="java.io.Serializable">
+      <point x="-94.75" y="-167.5" />
+      <point x="1449.75" y="56.0" />
+      <point x="1148.51875" y="56.0" />
+      <point x="51.75" y="18.0" />
+    </edge>
+    <edge source="listener.Listener" target="service.SubscriptionService">
+      <point x="-33.0" y="-45.0" />
+      <point x="2008.2624999999998" y="1663.0" />
+      <point x="1942.5" y="1663.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="java.rmi.server.UnicastRemoteObject" target="java.rmi.server.RemoteServer">
+      <point x="0.0" y="-221.5" />
+      <point x="1484.675" y="1683.0" />
+      <point x="1544.5" y="1683.0" />
+      <point x="0.0" y="113.5" />
+    </edge>
+    <edge source="domain.UserEntity" target="java.io.Serializable">
+      <point x="0.0" y="-640.0" />
+      <point x="810.5" y="66.0" />
+      <point x="1079.51875" y="66.0" />
+      <point x="-17.25" y="18.0" />
+    </edge>
+    <edge source="listener.Listener" target="java.rmi.Remote">
+      <point x="33.0" y="-45.0" />
+      <point x="2074.2625" y="1673.0" />
+      <point x="2141.5" y="1673.0" />
+      <point x="2141.5" y="66.0" />
+      <point x="2075.39375" y="66.0" />
+      <point x="14.125" y="18.0" />
+    </edge>
+    <edge source="listener.ListenerHelper" target="listener.Listener">
+      <point x="47.625" y="-140.5" />
+      <point x="1873.3874999999998" y="2166.0" />
+      <point x="2041.2624999999998" y="2166.0" />
+      <point x="0.0" y="45.0" />
+    </edge>
+    <edge source="java.rmi.server.RemoteObject" target="java.rmi.Remote">
+      <point x="94.75" y="-167.5" />
+      <point x="1639.25" y="56.0" />
+      <point x="2018.89375" y="56.0" />
+      <point x="-42.375" y="18.0" />
+    </edge>
+    <edge source="listener.ListenerHelper" target="java.rmi.server.UnicastRemoteObject">
+      <point x="-47.625" y="-140.5" />
+      <point x="1778.1374999999998" y="2166.0" />
+      <point x="1484.675" y="2166.0" />
+      <point x="0.0" y="221.5" />
+    </edge>
+    <edge source="listener.Listener" target="java.io.Serializable">
+      <point x="-99.0" y="-45.0" />
+      <point x="1942.2624999999998" y="1673.0" />
+      <point x="1344.5" y="1673.0" />
+      <point x="1344.5" y="66.0" />
+      <point x="1114.01875" y="66.0" />
+      <point x="17.25" y="18.0" />
+    </edge>
+    <edge source="service.SubscriberService" target="java.rmi.Remote">
+      <point x="0.0" y="-31.5" />
+      <point x="2302.5" y="56.0" />
+      <point x="2103.64375" y="56.0" />
+      <point x="42.375" y="18.0" />
+    </edge>
+    <edge source="java.rmi.server.RemoteServer" target="java.rmi.server.RemoteObject">
+      <point x="0.0" y="-113.5" />
+      <point x="0.0" y="167.5" />
+    </edge>
+    <edge source="notification.NotificationUpdate" target="java.io.Serializable">
+      <point x="0.0" y="-59.5" />
+      <point x="133.5" y="56.0" />
+      <point x="1045.01875" y="56.0" />
+      <point x="-51.75" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4" x="1367.75" y="1744.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

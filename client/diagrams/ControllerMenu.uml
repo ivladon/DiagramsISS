@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.component.ControllerMenu</OriginalElement>
+  <nodes>
+    <node x="1233.0" y="764.0">service.AuthenticationService</node>
+    <node x="445.0" y="0.0">manager.StageManager</node>
+    <node x="798.0" y="1217.0">org.springframework.stereotype.Component</node>
+    <node x="341.0" y="624.0">notifier.LocalNotificationCenter</node>
+    <node x="1200.0" y="591.0">context.ContextClass</node>
+    <node x="965.0" y="406.0">controller.main.ControllerInterface</node>
+    <node x="600.0" y="534.0">controller.component.ControllerMenu</node>
+    <node x="570.0" y="1184.0">org.springframework.context.annotation.Lazy</node>
+    <node x="1010.0" y="1098.0">context.CoreContext</node>
+    <node x="0.0" y="810.0">service.CollectionService</node>
+    <node x="971.0" y="267.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controller.component.ControllerMenu" target="context.CoreContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.component.ControllerMenu" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.component.ControllerMenu" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.component.ControllerMenu" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.component.ControllerMenu" target="service.CollectionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.component.ControllerMenu" target="context.ContextClass">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="context.CoreContext" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.component.ControllerMenu" target="notifier.LocalNotificationCenter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.component.ControllerMenu" target="controller.main.ControllerInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.component.ControllerMenu" target="service.AuthenticationService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4" x="1151.2500000000002" y="619.3333333333334" />
+  <SelectedNodes>
+    <node>service.AuthenticationService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

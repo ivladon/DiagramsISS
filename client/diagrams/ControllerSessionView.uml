@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.item.ControllerSessionView</OriginalElement>
+  <nodes>
+    <node x="2073.0" y="1228.5">service.AuthenticationService</node>
+    <node x="424.0" y="1416.5">manager.StageManager</node>
+    <node x="1678.5" y="1099.0">org.springframework.stereotype.Component</node>
+    <node x="240.0" y="848.0">transfarable.Session</node>
+    <node x="1272.0" y="1270.0">controller.item.ControllerSessionView</node>
+    <node x="1100.5" y="1102.5">controller.main.ControllerInterface</node>
+    <node x="988.5" y="405.0">transfarable.User</node>
+    <node x="1799.0" y="2105.0">org.springframework.context.annotation.Lazy</node>
+    <node x="1186.5" y="2103.0">service.SessionService</node>
+    <node x="2080.0" y="1655.0">itemcontroller.ControllerItemInterface</node>
+    <node x="615.0" y="1964.5">service.CollectionService</node>
+    <node x="811.0" y="1069.5">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controller.item.ControllerSessionView" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerSessionView" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerSessionView" target="service.CollectionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.Session" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerSessionView" target="transfarable.Session">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerSessionView" target="service.SessionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.User" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerSessionView" target="controller.main.ControllerInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerSessionView" target="service.AuthenticationService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerSessionView" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerSessionView" target="transfarable.User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.item.ControllerSessionView" target="itemcontroller.ControllerItemInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4" x="1786.25" y="1420.5" />
+  <SelectedNodes>
+    <node>manager.StageManager</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

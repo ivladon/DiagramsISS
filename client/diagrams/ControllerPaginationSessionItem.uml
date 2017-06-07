@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.pagination.ControllerPaginationSessionItem</OriginalElement>
+  <nodes>
+    <node x="275.0" y="316.0">controller.pagination.ControllerPaginationSessionItem</node>
+    <node x="1018.0" y="473.0">manager.StageManager</node>
+    <node x="605.0" y="34.0">org.springframework.stereotype.Component</node>
+    <node x="717.0" y="158.0">itemcontroller.PaginationControllerItemInterface</node>
+    <node x="525.0" y="860.0">transfarable.Session</node>
+    <node x="792.0" y="434.0">controller.main.ControllerInterface</node>
+    <node x="474.0" y="138.0">org.springframework.context.annotation.Lazy</node>
+    <node x="947.0" y="0.0">itemcontroller.ControllerItemInterface</node>
+    <node x="0.0" y="582.0">org.springframework.context.annotation.Scope</node>
+    <node x="799.0" y="671.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="transfarable.Session" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="controller.main.ControllerInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationSessionItem" target="org.springframework.context.annotation.Scope">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationSessionItem" target="transfarable.Session">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationSessionItem" target="itemcontroller.PaginationControllerItemInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationSessionItem" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationSessionItem" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="itemcontroller.ControllerItemInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationSessionItem" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6" x="999.1666666666667" y="616.3333333333334" />
+  <SelectedNodes>
+    <node>transfarable.Session</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>notifier.EventType</OriginalElement>
+  <nodes>
+    <node x="0.0" y="113.0">java.lang.Enum</node>
+    <node x="157.0" y="606.0">notifier.EventType</node>
+    <node x="216.5" y="0.0">java.lang.Comparable</node>
+    <node x="58.5" y="13.5">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="-110.75" y="-221.5" />
+      <point x="110.75" y="88.0" />
+      <point x="127.5" y="88.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="110.75" y="-221.5" />
+      <point x="332.25" y="88.0" />
+      <point x="315.5" y="88.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="notifier.EventType" target="java.lang.Enum">
+      <point x="0.0" y="-31.5" />
+      <point x="0.0" y="221.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="150.5" y="384.0" />
+  <SelectedNodes>
+    <node>notifier.EventType</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

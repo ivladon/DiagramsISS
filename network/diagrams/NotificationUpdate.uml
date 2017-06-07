@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>notification.NotificationUpdate</OriginalElement>
+  <nodes>
+    <node x="0.0" y="86.0">notification.NotificationType</node>
+    <node x="24.0" y="280.0">notification.NotificationUpdate</node>
+    <node x="88.5" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="notification.NotificationUpdate" target="notification.NotificationType">
+      <point x="-66.75" y="-59.5" />
+      <point x="90.75" y="255.0" />
+      <point x="101.5" y="255.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="notification.NotificationType" target="java.io.Serializable">
+      <point x="0.0" y="-72.0" />
+      <point x="101.5" y="61.0" />
+      <point x="123.0" y="61.0" />
+      <point x="-34.5" y="18.0" />
+    </edge>
+    <edge source="notification.NotificationUpdate" target="java.io.Serializable">
+      <point x="66.75" y="-59.5" />
+      <point x="224.25" y="255.0" />
+      <point x="213.5" y="255.0" />
+      <point x="213.5" y="61.0" />
+      <point x="192.0" y="61.0" />
+      <point x="34.5" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="94.5" y="61.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>main.ServerSpringConfiguration</OriginalElement>
+  <nodes>
+    <node x="906.5259435094674" y="2444.5469011834443">manager.NotificationManager</node>
+    <node x="604.3750910331835" y="2616.1331669048295">model.LoginModel</node>
+    <node x="789.1742425990049" y="2617.322384522613">model.NotificationModel</node>
+    <node x="938.4350864177709" y="2341.287013122369">manager.EditionManager</node>
+    <node x="671.2322770407968" y="1810.593666486264">model.EditionModel</node>
+    <node x="67.57186516161966" y="2569.632950606942">model.TopicModel</node>
+    <node x="-2.569071251239251" y="2298.002118957341">model.TagModel</node>
+    <node x="485.57493093662674" y="1804.401766677654">database.DatabaseLoader</node>
+    <node x="-11.519841952646232" y="2088.68309201467">manager.ConferenceManager</node>
+    <node x="304.367143652555" y="1842.922897109863">manager.UserManager</node>
+    <node x="955.5985665090545" y="2114.13477091816">notification.NotificationCenter</node>
+    <node x="797.0769996251066" y="1756.9220378326802">manager.LoginManager</node>
+    <node x="857.7122975482782" y="1875.5870600584242">manager.AuthenticationManager</node>
+    <node x="424.0477238956026" y="2284.2181251759953">main.ServerSpringConfiguration</node>
+    <node x="534.5466662561454" y="2794.6287530186232">java.lang.SuppressWarnings</node>
+    <node x="365.81154635305234" y="1706.4155841389531">model.SessionModel</node>
+    <node x="-71.45888106763073" y="2150.489505691844">model.SubmissionModel</node>
+    <node x="362.0908321576038" y="2985.849459256264">org.springframework.context.annotation.ComponentScan</node>
+    <node x="886.8091077649967" y="2546.5430099888">manager.TopicManager</node>
+    <node x="277.6171120018801" y="2766.574780427312">org.springframework.context.annotation.Configuration</node>
+    <node x="927.1735675890498" y="1998.700314807742">manager.SessionManager</node>
+    <node x="1036.1116053589155" y="2231.3469739037464">manager.SubscriptionManager</node>
+    <node x="215.24467514480784" y="1930.000000000003">manager.SignUpManager</node>
+    <node x="614.4370515912648" y="1722.3119584756328">manager.TagManager</node>
+    <node x="-90.00000000000004" y="2457.470790776137">manager.SubmissionManager</node>
+    <node x="88.80866306348116" y="2008.5816199881504">model.ConferenceModel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main.ServerSpringConfiguration" target="manager.ConferenceManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="org.springframework.context.annotation.Configuration">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="model.EditionModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="manager.EditionManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="manager.UserManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="manager.LoginManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="manager.TagManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="notification.NotificationCenter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="manager.SessionManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="manager.SignUpManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="model.LoginModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.SubscriptionManager" target="notification.NotificationCenter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="manager.NotificationManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="model.SubmissionModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="manager.AuthenticationManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="model.SessionModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="database.DatabaseLoader">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="manager.TopicManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="org.springframework.context.annotation.ComponentScan">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="manager.SubscriptionManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="java.lang.SuppressWarnings">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="model.ConferenceModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="manager.SubmissionManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="model.NotificationModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.SubmissionManager" target="model.TopicModel">
+      <point x="2.3712084347712903" y="-4.401973484571386" />
+      <point x="2.371208434771283" y="-4.401973484571386" />
+    </edge>
+    <edge source="manager.SubmissionManager" target="model.TagModel">
+      <point x="-4.574253418778142" y="-2.0189615302913637" />
+      <point x="-4.574253418778142" y="-2.0189615302913637" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="model.TagModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.ServerSpringConfiguration" target="model.TopicModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5999999999999996" x="554.1666666666674" y="2364.333333333334" />
+  <SelectedNodes>
+    <node>manager.EditionManager</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

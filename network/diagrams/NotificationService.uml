@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>service.NotificationService</OriginalElement>
+  <nodes>
+    <node x="65.0" y="86.0">service.ServiceInterface</node>
+    <node x="91.5" y="0.0">java.rmi.Remote</node>
+    <node x="0.0" y="393.0">service.NotificationService</node>
+    <node x="9.5" y="172.0">service.Service</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="service.NotificationService" target="service.Service">
+      <point x="0.0" y="-58.5" />
+      <point x="0.0" y="85.5" />
+    </edge>
+    <edge source="service.Service" target="service.ServiceInterface">
+      <point x="0.0" y="-85.5" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="service.ServiceInterface" target="java.rmi.Remote">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="93.5" y="307.0" />
+  <SelectedNodes>
+    <node>service.NotificationService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

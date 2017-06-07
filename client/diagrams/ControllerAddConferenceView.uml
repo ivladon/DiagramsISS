@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.add.ControllerAddConferenceView</OriginalElement>
+  <nodes>
+    <node x="2565.6153846153843" y="1687.0">service.AuthenticationService</node>
+    <node x="1681.5760256410256" y="437.0">utils.EditionContext</node>
+    <node x="1539.0" y="1335.0">utils.ConferenceContext</node>
+    <node x="1130.0" y="1714.0">java.lang.SuppressWarnings</node>
+    <node x="1793.0760256410256" y="94.5">service.ConferenceService</node>
+    <node x="0.0" y="1714.0">controller.main.ControllerInterface</node>
+    <node x="1356.5883333333334" y="108.0">service.SessionService</node>
+    <node x="2844.6153846153843" y="1579.0">service.CollectionService</node>
+    <node x="179.89121794871744" y="843.0">java.io.Serializable</node>
+    <node x="1023.7526923076921" y="2246.0">controller.add.ControllerAddConferenceView</node>
+    <node x="205.0" y="1510.5">manager.StageManager</node>
+    <node x="938.0" y="1714.0">org.springframework.stereotype.Component</node>
+    <node x="2393.076025641026" y="0.0">service.EditionService</node>
+    <node x="1332.0" y="1714.0">org.springframework.context.annotation.Lazy</node>
+    <node x="703.0" y="1714.0">itemcontroller.ControllerItemInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controller.add.ControllerAddConferenceView" target="manager.StageManager">
+      <point x="-293.8461538461537" y="-383.0" />
+      <point x="1111.9065384615383" y="2216.0" />
+      <point x="444.0" y="2216.0" />
+      <point x="0.0" y="235.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddConferenceView" target="org.springframework.stereotype.Component">
+      <point x="-176.30769230769226" y="-383.0" />
+      <point x="1229.4449999999997" y="2196.0" />
+      <point x="1023.5" y="2196.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="utils.EditionContext" target="service.ConferenceService">
+      <point x="0.0" y="-424.0" />
+      <point x="0.0" y="99.0" />
+    </edge>
+    <edge source="utils.ConferenceContext" target="service.EditionService">
+      <point x="331.24999999999994" y="-410.5" />
+      <point x="2267.75" y="1315.0" />
+      <point x="2679.076025641026" y="1315.0" />
+      <point x="0.0" y="193.5" />
+    </edge>
+    <edge source="controller.add.ControllerAddConferenceView" target="service.EditionService">
+      <point x="293.8461538461538" y="-383.0" />
+      <point x="1699.598846153846" y="2216.0" />
+      <point x="2834.1153846153843" y="2216.0" />
+      <point x="2834.1153846153843" y="417.0" />
+      <point x="2869.742692307692" y="417.0" />
+      <point x="190.66666666666652" y="193.5" />
+    </edge>
+    <edge source="utils.ConferenceContext" target="service.SessionService">
+      <point x="-331.25" y="-410.5" />
+      <point x="1605.25" y="1315.0" />
+      <point x="1545.5883333333334" y="1315.0" />
+      <point x="0.0" y="85.5" />
+    </edge>
+    <edge source="controller.add.ControllerAddConferenceView" target="service.SessionService">
+      <point x="-117.53846153846149" y="-383.0" />
+      <point x="1288.2142307692307" y="2186.0" />
+      <point x="1119.5" y="2186.0" />
+      <point x="1119.5" y="417.0" />
+      <point x="1419.5883333333334" y="417.0" />
+      <point x="-126.0" y="85.5" />
+    </edge>
+    <edge source="utils.EditionContext" target="service.EditionService">
+      <point x="253.66666666666674" y="-424.0" />
+      <point x="2315.7426923076923" y="417.0" />
+      <point x="2488.409358974359" y="417.0" />
+      <point x="-190.66666666666674" y="193.5" />
+    </edge>
+    <edge source="controller.add.ControllerAddConferenceView" target="service.CollectionService">
+      <point x="352.6153846153845" y="-383.0" />
+      <point x="1758.3680769230766" y="2226.0" />
+      <point x="3114.1153846153843" y="2226.0" />
+      <point x="0.0" y="166.5" />
+    </edge>
+    <edge source="controller.add.ControllerAddConferenceView" target="service.AuthenticationService">
+      <point x="235.0769230769231" y="-383.0" />
+      <point x="1640.8296153846152" y="2206.0" />
+      <point x="2694.6153846153843" y="2206.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="controller.add.ControllerAddConferenceView" target="utils.EditionContext">
+      <point x="117.53846153846166" y="-383.0" />
+      <point x="1523.2911538461537" y="2186.0" />
+      <point x="2382.3125" y="2186.0" />
+      <point x="2382.3125" y="1305.0" />
+      <point x="2347.451025641026" y="1305.0" />
+      <point x="285.37499999999994" y="424.0" />
+    </edge>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="-235.0" />
+      <point x="444.0" y="1315.0" />
+      <point x="283.39121794871744" y="1315.0" />
+      <point x="34.5" y="18.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddConferenceView" target="utils.ConferenceContext">
+      <point x="58.76923076923083" y="-383.0" />
+      <point x="1464.521923076923" y="2176.0" />
+      <point x="1936.5" y="2176.0" />
+      <point x="0.0" y="410.5" />
+    </edge>
+    <edge source="controller.add.ControllerAddConferenceView" target="service.ConferenceService">
+      <point x="176.30769230769238" y="-383.0" />
+      <point x="1582.0603846153845" y="2196.0" />
+      <point x="2453.076025641026" y="2196.0" />
+      <point x="2453.076025641026" y="407.0" />
+      <point x="2241.4093589743593" y="407.0" />
+      <point x="179.33333333333348" y="99.0" />
+    </edge>
+    <edge source="controller.add.ControllerAddConferenceView" target="java.lang.SuppressWarnings">
+      <point x="-58.76923076923072" y="-383.0" />
+      <point x="1346.9834615384614" y="2176.0" />
+      <point x="1221.0" y="2176.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="utils.ConferenceContext" target="service.ConferenceService">
+      <point x="-198.75" y="-410.5" />
+      <point x="1737.75" y="1305.0" />
+      <point x="1596.6458333333335" y="1305.0" />
+      <point x="1596.6458333333335" y="417.0" />
+      <point x="1882.7426923076923" y="417.0" />
+      <point x="-179.33333333333326" y="99.0" />
+    </edge>
+    <edge source="utils.EditionContext" target="service.SessionService">
+      <point x="-253.66666666666652" y="-424.0" />
+      <point x="1808.409358974359" y="407.0" />
+      <point x="1671.5883333333334" y="407.0" />
+      <point x="126.0" y="85.5" />
+    </edge>
+    <edge source="controller.add.ControllerAddConferenceView" target="controller.main.ControllerInterface">
+      <point x="-352.6153846153844" y="-383.0" />
+      <point x="1053.1373076923078" y="2226.0" />
+      <point x="92.5" y="2226.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="controller.add.ControllerAddConferenceView" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="-383.0" />
+      <point x="1405.752692307692" y="2226.0" />
+      <point x="1425.5" y="2226.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="controller.add.ControllerAddConferenceView" target="itemcontroller.ControllerItemInterface">
+      <point x="-235.07692307692298" y="-383.0" />
+      <point x="1170.6757692307692" y="2206.0" />
+      <point x="810.5" y="2206.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="-31.5" />
+      <point x="92.5" y="1315.0" />
+      <point x="214.39121794871744" y="1315.0" />
+      <point x="-34.5" y="18.0" />
+    </edge>
+    <edge source="utils.ConferenceContext" target="utils.EditionContext">
+      <point x="-66.25" y="-410.5" />
+      <point x="1870.25" y="1315.0" />
+      <point x="1776.7010256410256" y="1315.0" />
+      <point x="-285.375" y="424.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000004" x="1414.333333333333" y="1409.6666666666665" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

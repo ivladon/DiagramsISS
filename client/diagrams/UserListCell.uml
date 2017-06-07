@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cells.UserListCell</OriginalElement>
+  <nodes>
+    <node x="708.5" y="1006.0">cells.UserListCell</node>
+    <node x="0.0" y="0.0">javafx.scene.control.ListCell</node>
+    <node x="994.0" y="243.0">manager.StageManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cells.UserListCell" target="javafx.scene.control.ListCell">
+      <point x="-75.75" y="-73.0" />
+      <point x="784.25" y="981.0" />
+      <point x="487.0" y="981.0" />
+      <point x="0.0" y="478.0" />
+    </edge>
+    <edge source="cells.UserListCell" target="manager.StageManager">
+      <point x="75.75" y="-73.0" />
+      <point x="935.75" y="981.0" />
+      <point x="1233.0" y="981.0" />
+      <point x="0.0" y="235.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="870.1428571428571" y="584.1428571428571" />
+  <SelectedNodes>
+    <node>manager.StageManager</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

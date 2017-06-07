@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.update.ControllerUpdateEditionView</OriginalElement>
+  <nodes>
+    <node x="342.0" y="110.0">manager.StageManager</node>
+    <node x="1431.0" y="1175.0">org.springframework.stereotype.Component</node>
+    <node x="0.0" y="980.0">service.EditionService</node>
+    <node x="1310.0" y="0.0">transfarable.Edition</node>
+    <node x="657.0" y="673.0">controller.update.ControllerUpdateEditionView</node>
+    <node x="861.0" y="485.0">java.lang.SuppressWarnings</node>
+    <node x="1084.0" y="482.0">controller.main.ControllerInterface</node>
+    <node x="429.0" y="758.0">org.springframework.context.annotation.Lazy</node>
+    <node x="1443.0" y="894.0">itemcontroller.ControllerItemInterface</node>
+    <node x="422.0" y="1531.0">service.CollectionService</node>
+    <node x="1091.0" y="1507.0">controller.ControllerEdition</node>
+    <node x="984.0" y="340.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controller.update.ControllerUpdateEditionView" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateEditionView" target="transfarable.Edition">
+      <point x="0.0" y="8.219494552765866" />
+      <point x="6.2996126134336805" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateEditionView" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateEditionView" target="itemcontroller.ControllerItemInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.Edition" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateEditionView" target="java.lang.SuppressWarnings">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateEditionView" target="controller.main.ControllerInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateEditionView" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateEditionView" target="service.EditionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateEditionView" target="controller.ControllerEdition">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.update.ControllerUpdateEditionView" target="service.CollectionService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="1234.125" y="1191.25" />
+  <SelectedNodes>
+    <node>service.EditionService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

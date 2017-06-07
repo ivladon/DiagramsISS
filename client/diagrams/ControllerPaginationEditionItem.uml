@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.pagination.ControllerPaginationEditionItem</OriginalElement>
+  <nodes>
+    <node x="315.0" y="1411.0">view.GradientGenerator</node>
+    <node x="0.0" y="673.0">manager.StageManager</node>
+    <node x="1081.0" y="1024.0">org.springframework.stereotype.Component</node>
+    <node x="545.0" y="948.0">controller.pagination.ControllerPaginationEditionItem</node>
+    <node x="1010.0" y="790.0">itemcontroller.PaginationControllerItemInterface</node>
+    <node x="433.0" y="0.0">transfarable.Edition</node>
+    <node x="784.0" y="754.0">controller.main.ControllerInterface</node>
+    <node x="1078.0" y="1155.0">org.springframework.context.annotation.Lazy</node>
+    <node x="1248.0" y="680.0">itemcontroller.ControllerItemInterface</node>
+    <node x="784.0" y="1443.0">org.springframework.context.annotation.Scope</node>
+    <node x="593.0" y="783.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controller.pagination.ControllerPaginationEditionItem" target="transfarable.Edition">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationEditionItem" target="itemcontroller.PaginationControllerItemInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="controller.main.ControllerInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationEditionItem" target="org.springframework.context.annotation.Scope">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationEditionItem" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.Edition" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationEditionItem" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="itemcontroller.ControllerItemInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationEditionItem" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationEditionItem" target="view.GradientGenerator">
+      <point x="3.493697619375844" y="3.57688089602766" />
+      <point x="3.493697619375837" y="3.57688089602766" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="618.2727272727271" y="337.4545454545453" />
+  <SelectedNodes>
+    <node>org.springframework.stereotype.Component</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

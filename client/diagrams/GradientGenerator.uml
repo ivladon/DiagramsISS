@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>view.GradientGenerator</OriginalElement>
+  <nodes>
+    <node x="65.0" y="0.0">view.GradientType</node>
+    <node x="0.0" y="222.0">view.GradientGenerator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="view.GradientGenerator" target="view.GradientType">
+      <point x="0.0" y="-59.5" />
+      <point x="0.0" y="86.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="92.0" y="18.0" />
+  <SelectedNodes>
+    <node>view.GradientType</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

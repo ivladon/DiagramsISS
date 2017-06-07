@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller.pagination.ControllerPaginationSubmissionItem</OriginalElement>
+  <nodes>
+    <node x="966.0" y="536.0">manager.StageManager</node>
+    <node x="720.0" y="0.0">org.springframework.stereotype.Component</node>
+    <node x="826.0" y="211.0">itemcontroller.PaginationControllerItemInterface</node>
+    <node x="848.0" y="432.0">controller.main.ControllerInterface</node>
+    <node x="471.0" y="820.0">transfarable.Submission</node>
+    <node x="289.0" y="218.0">controller.pagination.ControllerPaginationSubmissionItem</node>
+    <node x="602.0" y="104.0">org.springframework.context.annotation.Lazy</node>
+    <node x="1039.2857142857144" y="106.57142857142856">itemcontroller.ControllerItemInterface</node>
+    <node x="0.0" y="407.0">org.springframework.context.annotation.Scope</node>
+    <node x="776.0" y="701.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controller.pagination.ControllerPaginationSubmissionItem" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="controller.main.ControllerInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationSubmissionItem" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.StageManager" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="org.springframework.context.annotation.Lazy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationSubmissionItem" target="org.springframework.context.annotation.Scope">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationSubmissionItem" target="manager.StageManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationSubmissionItem" target="itemcontroller.PaginationControllerItemInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="transfarable.Submission" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.main.ControllerInterface" target="java.io.Serializable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="controller.pagination.ControllerPaginationSubmissionItem" target="transfarable.Submission">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="itemcontroller.PaginationControllerItemInterface" target="itemcontroller.ControllerItemInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="887.1428571428571" y="550.1428571428571" />
+  <SelectedNodes>
+    <node>itemcontroller.ControllerItemInterface</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

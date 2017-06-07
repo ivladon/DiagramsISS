@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>service.SignUpService</OriginalElement>
+  <nodes>
+    <node x="114.5" y="86.0">service.ServiceInterface</node>
+    <node x="141.0" y="0.0">java.rmi.Remote</node>
+    <node x="0.0" y="172.0">service.SignUpService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="service.SignUpService" target="service.ServiceInterface">
+      <point x="0.0" y="-31.5" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="service.ServiceInterface" target="java.rmi.Remote">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="83.0" y="104.0" />
+  <SelectedNodes>
+    <node>service.SignUpService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
